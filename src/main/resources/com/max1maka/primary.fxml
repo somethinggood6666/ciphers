@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.max1maka.PrimaryController">
+   <children>
+      <TextArea fx:id="txtOutputText" layoutX="22.0" layoutY="282.0" prefHeight="183.0" prefWidth="576.0" wrapText="true" />
+      <TextArea fx:id="txtInputText" layoutX="22.0" layoutY="86.0" prefHeight="183.0" prefWidth="576.0" wrapText="true" />
+      <Button fx:id="btnEncrypt" layoutX="489.0" layoutY="492.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="109.0" text="Шифровать" />
+      <Button fx:id="btnDeCrypt" layoutX="22.0" layoutY="492.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="109.0" text="Дешифровать" />
+      <CheckBox fx:id="cbIronFence" layoutX="22.0" layoutY="26.0" mnemonicParsing="false" text="ЖД ИЗГОРОДЬ" />
+      <CheckBox fx:id="cbColumn" layoutX="182.0" layoutY="26.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="125.0" text="СТОЛБ. МЕТОД" />
+      <CheckBox fx:id="cbRotate" layoutX="343.0" layoutY="26.0" mnemonicParsing="false" text="ПОВ. РЕШЕТКА" />
+      <CheckBox fx:id="cbCezar" layoutX="489.0" layoutY="26.0" mnemonicParsing="false" text="ЦЕЗАРЬ" />
+      <TextField fx:id="txtRotateKey" layoutX="343.0" layoutY="51.0" prefHeight="25.0" prefWidth="109.0" />
+      <TextField fx:id="txtCezarKey" layoutX="489.0" layoutY="51.0" prefHeight="25.0" prefWidth="109.0" />
+      <TextField fx:id="txtIronFenceKey" layoutX="22.0" layoutY="51.0" prefHeight="25.0" prefWidth="109.0" />
+      <TextField fx:id="txtColumnKey" layoutX="182.0" layoutY="51.0" prefHeight="25.0" prefWidth="109.0" />
+   </children>
+</Pane>
